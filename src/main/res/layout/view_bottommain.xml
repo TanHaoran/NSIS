@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_toLeftOf="@id/v_onduty"
+    android:layout_below="@id/view_top"
+    android:layout_marginRight="@dimen/main_padding"
+    android:layout_marginLeft="@dimen/main_padding"
+    android:layout_marginBottom="@dimen/main_padding"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:id="@+id/ll_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+    </LinearLayout>
+</HorizontalScrollView>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_top"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:layout_margin="@dimen/main_padding"
+    android:layout_toLeftOf="@id/v_onduty"
+    android:layout_below="@id/logo_layout"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="6dp">
+
+    <TextView
+        android:id="@+id/tv_left1"
+        android:layout_width="@dimen/left_slide_width"
+        android:layout_height="@dimen/left_btn_line_height"
+        android:layout_marginLeft="@dimen/left_slide_textMargin"
+        android:background="@color/slide_selectColor"
+        android:gravity="center"
+        android:lines="2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/slide_menu_textSize" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/tv_left2"
+        android:layout_width="@dimen/left_slide_width"
+        android:layout_height="@dimen/left_btn_line_height"
+        android:layout_below="@id/tv_left1"
+        android:layout_marginLeft="@dimen/left_slide_textMargin"
+        android:background="@color/slide_unselectColor"
+        android:gravity="center"
+        android:lines="2"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/slide_menu_textSize" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/tv_left3"
+        android:layout_width="@dimen/left_slide_width"
+        android:layout_height="@dimen/left_btn_line_height"
+        android:layout_below="@id/tv_left2"
+        android:layout_marginLeft="@dimen/left_slide_textMargin"
+        android:background="@color/slide_unselectColor"
+        android:gravity="center"
+        android:lines="2"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/slide_menu_textSize" />
+
+    <TextView
+        android:layout_marginTop="2dp"
+        android:id="@+id/tv_left4"
+        android:layout_width="@dimen/left_slide_width"
+        android:layout_height="@dimen/left_btn_line_height"
+        android:layout_below="@id/tv_left3"
+        android:layout_marginLeft="@dimen/left_slide_textMargin"
+        android:background="@color/slide_unselectColor"
+        android:gravity="center"
+        android:lines="2"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/slide_menu_textSize" />
+
+    <com.jerry.nsis.view.TopBlock
+        android:id="@+id/tb_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tv_left1"
+        android:orientation="vertical" />
+
+    <com.jerry.nsis.view.TopBlock
+        android:id="@+id/tb_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tv_left1"
+        android:orientation="vertical"
+        android:visibility="invisible" />
+
+    <com.jerry.nsis.view.TopBlock
+        android:id="@+id/tb_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tv_left1"
+        android:orientation="vertical"
+        android:visibility="invisible" />
+
+    <com.jerry.nsis.view.TopBlock
+        android:id="@+id/tb_layout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4dp"
+        android:layout_toRightOf="@id/tv_left1"
+        android:orientation="vertical"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

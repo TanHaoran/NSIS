@@ -1,0 +1,199 @@
+<resources>
+
+
+    <!--主页start-->
+
+
+    <!--左上方显示区域-->
+    <dimen name="left_slide_width">45dp</dimen>
+    <dimen name="left_slide_height">60dp</dimen>
+    <dimen name="left_slide_text_width">30dp</dimen>
+    <dimen name="left_slide_textSize">18dp</dimen>
+    <dimen name="left_slide_textMargin">6dp</dimen>
+    <dimen name="left_slide_margin">1dp</dimen>
+    <dimen name="frequency_width">120dp</dimen>
+    <dimen name="frequency_textSize">24sp</dimen>
+    <dimen name="item_bed_width">130dp</dimen>
+    <dimen name="item_bedno_width">65dp</dimen>
+    <dimen name="item_beddoc_width">65dp</dimen>
+    <dimen name="item_doc_textSize">9sp</dimen>
+    <dimen name="frequency_line_height">69dp</dimen>
+    <dimen name="left_btn_line_height">121dp</dimen>
+    <dimen name="event_textSize">9sp</dimen>
+    <dimen name="event_text_padding">5dp</dimen>
+    <dimen name="event_text_width">17dp</dimen>
+
+    <!--左下方区域-->
+    <dimen name="bottommain_layoutWidth">900dp</dimen>
+    <dimen name="bottommain_item_type_width">100dp</dimen>
+    <dimen name="bottommain_item_bed_width">130dp</dimen>
+    <dimen name="bottommain_item_bedno_width">70dp</dimen>
+    <dimen name="bottommain_item_bedno_paddingRight">5dp</dimen>
+    <dimen name="bottommain_item_beddoc_width">55dp</dimen>
+    <dimen name="type_line_height">51dp</dimen>
+
+
+    <dimen name="bed_paging_textSize">11sp</dimen>
+
+
+    <dimen name="time_layout_height">60dp</dimen>
+    <dimen name="main_padding">15dp</dimen>
+
+
+    <dimen name="time_textSize">22sp</dimen>
+    <dimen name="right_menu_img_margin">10dp</dimen>
+    <dimen name="right_menu_title_height">45dp</dimen>
+    <dimen name="slide_menu_textSize">20sp</dimen>
+    <dimen name="right_menu_textSize">18sp</dimen>
+    <dimen name="onduty_date_textSize">14sp</dimen>
+
+    <dimen name="onduty_height">100dp</dimen>
+    <dimen name="exchangebed_height">80dp</dimen>
+    <dimen name="contact_height">100dp</dimen>
+    <dimen name="note_height">180dp</dimen>
+
+
+    <!--菜单信息-->
+    <dimen name="right_menu_content_margin">13dp</dimen>
+    <dimen name="right_menu_width">270dp</dimen>
+    <dimen name="right_menu_item_height">65dp</dimen>
+    <dimen name="right_menu_item_width">90dp</dimen>
+    <dimen name="right_menu_item2_marginleft">53dp</dimen>
+    <dimen name="right_menu_item3_marginleft">10dp</dimen>
+    <dimen name="right_menu_item3_margintop">45dp</dimen>
+
+    <!--今日值班-->
+    <dimen name="onduty_leftpart">80dp</dimen>
+    <dimen name="onduty_rightpart">170dp</dimen>
+
+    <!--换床信息-->
+    <dimen name="round_circle_small">5dp</dimen>
+    <dimen name="round_circle_big">10dp</dimen>
+    <dimen name="exchangebed_title_textSize">26sp</dimen>
+    <dimen name="exchangebed_line_height">28dp</dimen>
+    <dimen name="exchangebed_leftpart">100dp</dimen>
+
+
+    <!--电话薄-->
+    <dimen name="contact_img_width">40dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="mainmenubtn_marginRight">20dp</dimen>
+    <dimen name="mainmenubtn_marginBottom">10dp</dimen>
+
+
+    <dimen name="mainmenubtn_width">80dp</dimen>
+
+    <!--主页end-->
+
+    <!--护士教育start-->
+    <dimen name="edu_titleHight">70dp</dimen>
+    <dimen name="edu_title_textSize">24sp</dimen>
+    <dimen name="edu_leftmenu_width">230dp</dimen>
+    <dimen name="edu_praise_layout_width">50dp</dimen>
+    <dimen name="edu_praise_width">10dp</dimen>
+    <dimen name="edu_praise_height">14dp</dimen>
+    <dimen name="edu_praise_marginRight">5dp</dimen>
+    <dimen name="edu_textSize">11sp</dimen>
+    <dimen name="edu_img_width">20sp</dimen>
+    <dimen name="edu_img_height">25sp</dimen>
+    <!--护士教育end-->
+
+    <dimen name="window_activity_title_height">85dp</dimen>
+    <dimen name="window_prompt_title_height">70dp</dimen>
+
+
+    <!--床位一览start-->
+    <dimen name="bed_scan_bottom_height">100dp</dimen>
+    <dimen name="bed_scan_bottom_btn_width">60dp</dimen>
+    <dimen name="bed_scan_bottom_btn_marginLeft">12dp</dimen>
+    <dimen name="bed_scan_bottom_btn_textSize">24sp</dimen>
+    <dimen name="bed_scan_item_width">170dp</dimen>
+    <dimen name="bed_scan_item_height">175dp</dimen>
+    <dimen name="bed_scan_item_title_height">40dp</dimen>
+    <dimen name="bed_scan_item_bed_textSize">18sp</dimen>
+    <dimen name="bed_scan_item_name_textSize">14sp</dimen>
+    <dimen name="bed_scan_item_age_textSize">9sp</dimen>
+    <dimen name="bed_scan_item_hosid_textSize">6sp</dimen>
+    <dimen name="bed_scan_item_doc_textSize">11sp</dimen>
+    <dimen name="bed_scan_item_date_textSize">9sp</dimen>
+    <dimen name="bed_scan_item_level_textSize">14sp</dimen>
+    <dimen name="bed_scan_item_special_textSize">9sp</dimen>
+
+
+    <dimen name="patient_info_textSize">16sp</dimen>
+    <dimen name="patient_left_width">120dp</dimen>
+    <dimen name="patient_left_line_height">35dp</dimen>
+
+    <dimen name="patient_left_btn_height">32dp</dimen>
+    <dimen name="patient_left_btn_width">90dp</dimen>
+
+
+    <dimen name="patient_list_title_textSize">11sp</dimen>
+
+    <dimen name="patient_state">70dp</dimen>
+    <dimen name="patient_start">120dp</dimen>
+    <dimen name="patient_type">80dp</dimen>
+    <dimen name="patient_content">350dp</dimen>
+    <dimen name="patient_way">110dp</dimen>
+    <dimen name="patient_frequency">110dp</dimen>
+    <dimen name="patient_dose">120dp</dimen>
+    <dimen name="patient_note">90dp</dimen>
+    <dimen name="patient_date">120dp</dimen>
+
+
+    <!--床位一览end-->
+
+    <!--打印start-->
+    <dimen name="pritn_btn_width">200dp</dimen>
+    <dimen name="pritn_btn_height">75dp</dimen>
+    <!--打印end-->
+
+    <!--排班start-->
+    <dimen name="my_work_name_textSize">18sp</dimen>
+    <dimen name="my_work_form_title_textSize">16sp</dimen>
+    <dimen name="my_work_form_content_textSize">14sp</dimen>
+    <dimen name="my_work_form_line_height">50dp</dimen>
+    <dimen name="my_work_line_height">120dp</dimen>
+    <dimen name="my_work_line_height_textSize">13sp</dimen>
+    <dimen name="my_work_line_width">550dp</dimen>
+    <!--排班end-->
+
+    <!--病人详细-->
+    <dimen name="popup_hosid">10sp</dimen>
+    <dimen name="popup_inhos_date">16sp</dimen>
+
+    <!--一周排班-->
+    <dimen name="weekly_title_textSize">14sp</dimen>
+    <dimen name="weekly_title_group_width">140dp</dimen>
+    <dimen name="weekly_title_duty_width">120dp</dimen>
+    <dimen name="weekly_title_age_width">120dp</dimen>
+    <dimen name="weekly_title_years_width">120dp</dimen>
+    <dimen name="weekly_title_name_width">120dp</dimen>
+    <dimen name="weekly_title_day_width">125dp</dimen>
+    <dimen name="weekly_title_total_width">90dp</dimen>
+
+    <!--注册-->
+    <dimen name="welcome_small_textSize">15dp</dimen>
+    <dimen name="welcome_normal_textSize">25dp</dimen>
+    <dimen name="welcome_big_textSize">35dp</dimen>
+    <dimen name="welcome_nsis_textSize">50dp</dimen>
+    <dimen name="welcome_btn_width">160dp</dimen>
+    <dimen name="welcome_btn_height">50dp</dimen>
+    <dimen name="welcome_text_marginTop">80dp</dimen>
+    <dimen name="welcome_text_marginLeft">80dp</dimen>
+    <dimen name="welcome_text_line_spacing">20dp</dimen>
+
+    <dimen name="welcome_block_paddingTop">100dp</dimen>
+    <dimen name="welcome_block_paddingLeft">300dp</dimen>
+    <dimen name="welcome_block_left_width">200dp</dimen>
+
+    <dimen name="board_btn_width">50dp</dimen>
+    <dimen name="board_btn_marginLeft">30dp</dimen>
+    <dimen name="board_btn_big_marginLeft">85dp</dimen>
+
+</resources>

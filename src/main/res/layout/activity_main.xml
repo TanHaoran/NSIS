@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bgcolor">
+
+    <include layout="@layout/view_logo" 
+        android:id="@+id/logo_layout"/>  
+            
+    <include layout="@layout/view_contact"
+            android:id="@+id/v_contact" />
+
+    <include layout="@layout/view_exchangebed"
+            android:id="@+id/v_exchange"/>
+
+    <include layout="@layout/view_onduty" 
+            android:id="@+id/v_onduty"/>
+
+    <include android:id="@+id/view_top"
+    	 layout="@layout/view_topmain" />
+
+    <include layout="@layout/view_bottommain" />
+
+   
+        
+        
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/logo_layout"
+        android:orientation="horizontal"
+        android:padding="@dimen/main_padding">
+        
+    <include layout="@layout/view_note" 
+        android:id="@+id/rl_note"/>    
+         
+    </RelativeLayout>  
+    
+    <com.jerry.nsis.view.NoticeView
+    	android:id="@+id/noticeview"
+    	android:visibility="invisible"
+    	android:layout_alignParentBottom="true"
+    	android:layout_width="match_parent"
+    	android:layout_height="120dp"/>  
+    
+     <com.jerry.nsis.view.MainMenuView    		
+        android:id="@+id/main_menu"
+        android:layout_width="520dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="1300dp"
+        android:layout_marginTop="380dp" />
+    
+        
+</RelativeLayout>

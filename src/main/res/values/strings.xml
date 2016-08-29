@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">NSIS</string>
+
+    <!--主页-->
+    <string name="onduty">今日值班</string>
+    <string name="exchangebed">换床信息</string>
+    <string name="contact">电话薄</string>
+    <string name="note">提醒项</string>
+
+
+    <string name="temper">体温</string>
+    <string name="suger">血糖</string>
+    <string name="nebulization">雾化</string>
+    <string name="pressure">血压</string>
+
+    <string name="first_line">一线</string>
+    <string name="second_line">二线</string>
+    <string name="third_line">三线</string>
+    <string name="all_line">总值班</string>
+
+    <!--换床信息-->
+    <string name="exchangebed_title">换床信息</string>
+    <string name="exchangebed_title_e">Bed Changing Information</string>
+    <string name="all">全部</string>
+    <string name="exchangebed_use">占床</string>
+    <string name="exchangebed_empty">空床</string>
+    <string name="others">其他</string>
+    <string name="save">保存</string>
+
+
+    <!--电话薄-->
+    <string name="food">订餐</string>
+    <string name="property">物业</string>
+    <string name="repair">维修</string>
+    <string name="emergency">急诊</string>
+    <string name="hospital">全院</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_bed_scan">BedScanActivity</string>
+    <string name="title_activity_education">EducationActivity</string>
+
+    <!--护士教育-->
+    <string name="nursing_edu">护士教育</string>
+    <string name="nursing_edu_title">护士教育</string>
+    <string name="nursing_edu_title_e">Nurse Education</string>
+    <string name="nursing_edu_data">护士教育（资料库）</string>
+    <string name="title_activity_exchange_bed">ExchangeBedActivity</string>
+
+    <!--床位一览-->
+    <string name="bedscan_all">All</string>
+    <string name="bedscan_serious">重</string>
+    <string name="bedscan_danger">危</string>
+    <string name="bedscan_special">特</string>
+    <string name="bedscan_one">I</string>
+    <string name="bedscan_two">II</string>
+    <string name="bedscan_three">III</string>
+    <string name="bedscan_empty">空</string>
+    <string name="bedscan_now">现</string>
+    <string name="bedscan_in">入</string>
+    <string name="bedscan_wait">待</string>
+    <string name="bedscan_doc">医</string>
+    <string name="title_activity_print">PrintActivity</string>
+
+    <!--打印-->
+    <string name="print_title">护理项目打印</string>
+    <string name="print_title_e">Nursing Item Print</string>
+    <string name="print">打印</string>
+    <string name="exit">退出</string>
+    <string name="title_activity_note">NoteActivity</string>
+
+    <!--提醒项-->
+    <string name="note_title">提醒项</string>
+    <string name="note_title_e">Reminder</string>
+    <string name="title_activity_work">WorkActivity</string>
+    <string name="title_activity_my_work">MyWorkActivity</string>
+
+    <!--排班-->
+    <string name="order_work">排班</string>
+    <string name="message">消息</string>
+    <string name="my_work">我的排班</string>
+    <string name="my_bed">我的管床</string>
+    <string name="time">时间</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednsday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="sunday">星期天</string>
+    <string name="last_week">上周</string>
+    <string name="this_week">本周</string>
+    <string name="next_week">下周</string>
+    <string name="serious">病重</string>
+    <string name="danger">病危</string>
+    <string name="title_activity_duty_group">DutyGroupActivity</string>
+    <string name="title_activity_file">FileActivity</string>
+
+    <!--画板-->
+    <string name="file_name">小画板</string>
+    <string name="dialog_open">打开</string>
+    <string name="dialog_save">保存</string>
+    <string name="filename">文件名：</string>
+    <string name="paint_width_setting">笔迹与橡皮宽度设置</string>
+    <string name="title_activity_weekly_work">WeeklyWorkActivity</string>
+    <string name="title_activity_setting">SettingActivity</string>
+
+    <!--欢迎注册-->
+    <string name="register_service">服务验证</string>
+    <string name="register_hospital">医院信息</string>
+    <string name="register_office">选择科室</string>
+    <string name="register_wechat">关注微信</string>
+    <string name="register">激活</string>
+    <string name="previous_step">上一步</string>
+    <string name="next_step">下一步</string>
+
+
+</resources>

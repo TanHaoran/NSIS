@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义水滴按钮 -->
+    <!--序号-->
+    <attr name="index" format="integer" />
+    <!-- 图标旋转角度 -->
+    <attr name="rotate" format="float" />
+    <!-- 图标资源 -->
+    <attr name="imageResource" format="reference" />
+    <!--圆圈颜色-->
+    <attr name="backgroundColor" format="string" />
+
+    <!--水滴按钮-->
+    <declare-styleable name="MainMenuItem">
+        <attr name="index" />
+        <attr name="rotate" />
+        <attr name="imageResource" />
+        <attr name="backgroundColor" />
+    </declare-styleable>
+
+    <!--矩形三角指示-->
+    <declare-styleable name="TriangleArrow">
+        <attr name="bg_color" format="string" />
+    </declare-styleable>
+
+
+    <!--圆形ImageView-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+
+    <!--床位一览按钮-->
+    <declare-styleable name="ScanButton">
+        <attr name="text" format="string" />
+    </declare-styleable>
+
+</resources>

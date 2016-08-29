@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="red">#f00</color>
+    <color name="transparent">#00000000</color>
+
+    <!--主页-->
+    <color name="main_bgcolor">#e9edf3</color>
+    <color name="time_layout_bgcolor">#45a5e5</color>
+    <color name="onduty_bgcolor">#30d183</color>
+    <color name="exchangebed_bgcolor">#1abb9b</color>
+    <color name="contact_bgcolor">#009ee1</color>
+    <color name="note_bgcolor">#f88e35</color>
+
+    <color name="slide_selectColor">#049de3</color>
+    <color name="slide_unselectColor">#d9dee5</color>
+
+
+    <color name="event_operation">#5abbf9</color>
+    <color name="event_in_hos">#1abc9c</color>
+    <color name="event_temper">#fd7871</color>
+    <color name="event_order">#f8b22c</color>
+
+
+    <color name="exchangebed_textColor">#666</color>
+    <color name="topmain_slide_line">#dfdfdf</color>
+
+
+    <color name="frequency">#0033cb</color>
+
+    <!--换床信息-->
+    <color name="exchange_border_color">#40000000</color>
+    <color name="exchange_green_color">#1bbb9a</color>
+    <color name="exchange_slideline_bg">#f2f2f2</color>
+    <color name="exchange_bed_no">#989898</color>
+
+
+    <!--床位一览-->
+    <color name="bedscan_bottom_bg">#050d25</color>
+    <color name="bedscan_item_border">#dfdfdf</color>
+    <color name="bedscan_item_age">#858585</color>
+
+    <color name="patient_left">#535a60</color>
+
+    <color name="patient_list_title_text">#6f7072</color>
+
+    <!--护士教育-->
+    <color name="edu_title_bg">#d9a672</color>
+    <color name="edu_leftmenu_bg">#f4e7db</color>
+    <color name="edu_leftmenu_select_bg">#d5b89a</color>
+    <color name="edu_item_date_text">#afafaf</color>
+    <color name="edu_item_line">#eaeaea</color>
+
+    <!--打印-->
+    <color name="pritn_bgcolor">#009fe3</color>
+
+    <!--排班-->
+    <color name="my_bed_form_line">#c6dae1</color>
+    <color name="my_bed_form_title_bg">#0ba9e1</color>
+    <color name="work_date_bg">#e7e7e7</color>
+    <color name="work_date_line">#00cbca</color>
+
+    <!--病人详细-->
+    <color name="popup_hosid">#747474</color>
+
+    <!--一周值班-->
+    <color name="weekwork_top">#323952</color>
+    <color name="weekwork_btn_text_normal">#606060</color>
+    <color name="weekwork_line">#b2b2b2</color>
+
+    <!--欢迎界面-->
+    <color name="setting_title">#1abc9c</color>
+    <color name="setting_btn">#fb8f35</color>
+
+
+</resources>

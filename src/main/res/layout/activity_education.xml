@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edu_titleHight"
+        android:background="@color/edu_title_bg">
+
+        <TextView
+            android:id="@+id/tv_edu_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/nursing_edu_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edu_title_textSize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/tv_edu_title"
+            android:text="@string/nursing_edu_title_e"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edu_title_textSize" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/hs_del" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/ll_leftmenu"
+            android:orientation="vertical"
+            android:background="@color/edu_leftmenu_bg"
+            android:layout_width="@dimen/edu_leftmenu_width"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="@dimen/edu_leftmenu_width"
+                android:layout_height="70dp"
+                android:gravity="center_vertical"
+                android:background="@color/edu_leftmenu_bg"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:scaleX="1.4"
+                    android:scaleY="1.4"
+                    android:id="@+id/iv_video"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/files" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="20dp"
+                    android:background="#eed9c3" />
+
+                <ImageView
+                    android:id="@+id/iv_file"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/ppt" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_big_tag"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:background="#d6b99b"
+                android:layout_width="match_parent"
+                android:layout_height="45dp">
+
+                <TextView
+                    android:textColor="#a77643"
+                    android:text="护理教育"
+                    android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:textColor="#a77643"
+                    android:text="（资料库）"
+                    android:textSize="10sp"
+                    android:background="#d6b99b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/ll_detail"
+                android:gravity="center_horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.jerry.nsis.view.Triangle
+            android:layout_marginTop="70dp"
+            android:layout_toRightOf="@id/ll_leftmenu"
+            android:layout_width="20dp"
+            android:layout_height="45dp" />
+
+        <GridView
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/gv_file"
+            android:numColumns="4"
+            android:horizontalSpacing="40dp"
+            android:verticalSpacing="30dp"
+            android:layout_toRightOf="@id/ll_leftmenu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

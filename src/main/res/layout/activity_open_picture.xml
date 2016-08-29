@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/save_dialog"
+    android:name="com.project.sketchpad.OpenGridViewDemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_activity_title_height"
+        android:background="@drawable/round_board_title"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="打开图片"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_exchangebed_title"
+            android:text="Open Picture"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/close" />
+
+    </RelativeLayout>
+
+    <GridView
+        android:background="#dddddd"
+        android:id="@+id/grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:numColumns="4"
+        android:verticalSpacing="20dp" />
+
+</LinearLayout>

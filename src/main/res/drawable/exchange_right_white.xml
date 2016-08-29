@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/exchange_slideline_bg" />
+
+    <corners android:bottomRightRadius="@dimen/round_circle_big"
+        android:topRightRadius="@dimen/round_circle_big"/>
+
+
+
+
+</shape>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/bed_scan_item_width"
+    android:layout_height="@dimen/bed_scan_item_height"
+    android:background="@drawable/bedscan_border"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bed_scan_item_title_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_no"
+            android:layout_width="@dimen/item_bedno_width"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="038"
+            android:textColor="@color/black"
+            android:textSize="@dimen/bed_scan_item_bed_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/bedscan_item_border" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="2dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_col4"
+                    android:layout_width="55dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="赵颖"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/bed_scan_item_name_textSize" />
+
+                <TextView
+                    android:id="@+id/tv_col2"
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="27"
+                    android:textColor="@color/bedscan_item_age"
+                    android:textSize="@dimen/bed_scan_item_age_textSize" />
+
+                <TextView
+                    android:id="@+id/tv_sex"
+                    android:layout_width="10dp"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:singleLine="true"
+                    android:text="女"
+                    android:textColor="@color/bedscan_item_age"
+                    android:textSize="@dimen/bed_scan_item_age_textSize" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_hosid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:singleLine="true"
+                android:text="30223413331"
+                android:textColor="@color/bedscan_item_age"
+                android:textSize="@dimen/bed_scan_item_age_textSize" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bedscan_item_border" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_diagnosis"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:textColor="@color/bedscan_item_age"
+            android:textSize="@dimen/bed_scan_item_age_textSize" />
+
+        <LinearLayout
+            android:id="@+id/ll_event"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@id/tv_diagnosis"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/tv_event_in_hos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/round_bedscan_event"
+                android:paddingBottom="1dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="1dp"
+                android:text="入院"
+                android:textColor="@color/white"
+                android:textSize="@dimen/bed_scan_item_age_textSize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_event_exchange_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/round_bedscan_event"
+                android:paddingBottom="1dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="1dp"
+                android:text="转入"
+                android:textColor="@color/white"
+                android:textSize="@dimen/bed_scan_item_age_textSize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_event_operation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/round_bedscan_event"
+                android:paddingBottom="1dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="1dp"
+                android:text="手术"
+                android:textColor="@color/white"
+                android:textSize="@dimen/bed_scan_item_age_textSize"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_event_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/round_bedscan_event"
+                android:paddingBottom="1dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="1dp"
+                android:text="出院"
+                android:textColor="@color/white"
+                android:textSize="@dimen/bed_scan_item_age_textSize"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_pay"
+            android:layout_width="match_parent"
+            android:layout_height="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="新农合现金"
+            android:textColor="@color/bedscan_item_age"
+            android:textSize="@dimen/bed_scan_item_age_textSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_above="@id/tv_pay"
+            android:background="@color/bedscan_item_border" />
+
+        <ImageView
+            android:id="@+id/iv_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/bedscan_item_border" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bed_scan_item_title_height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_doc"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="4dp"
+            android:singleLine="true"
+            android:text="王力宏"
+            android:textSize="@dimen/bed_scan_item_doc_textSize" />
+
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:text="2016-02-23"
+            android:textSize="@dimen/bed_scan_item_date_textSize" />
+
+
+        <TextView
+            android:id="@+id/tv_level"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="III"
+            android:textSize="@dimen/bed_scan_item_level_textSize" />
+
+        <TextView
+            android:id="@+id/tv_state"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="危"
+            android:textSize="@dimen/bed_scan_item_special_textSize" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

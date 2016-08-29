@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical"
+	android:background="#FFFFFF"
+	android:name="wis.com.ztl.GridViewDemo">
+	
+	<GridView android:id="@+id/grid" android:layout_width="fill_parent"
+		android:padding="20dip" android:columnWidth="40px"
+		android:layout_height="fill_parent" android:numColumns="4">
+		<!-- GridView 设置为4列 边距为 20pid-->
+	</GridView>
+	
+</LinearLayout>

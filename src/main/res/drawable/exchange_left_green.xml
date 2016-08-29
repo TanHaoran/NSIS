@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/exchangebed_bgcolor" />
+
+
+
+    <corners android:bottomLeftRadius="@dimen/round_circle_big"
+        android:topLeftRadius="@dimen/round_circle_big"/>
+
+
+
+
+</shape>

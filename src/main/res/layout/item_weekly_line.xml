@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_col1"
+            android:layout_width="@dimen/weekly_title_duty_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="职称"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <TextView
+            android:id="@+id/tv_col2"
+            android:layout_width="@dimen/weekly_title_age_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="年龄"
+            android:textColor="#999999"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <TextView
+            android:id="@+id/tv_col3"
+            android:layout_width="@dimen/weekly_title_years_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="工作年限"
+            android:textColor="#999999"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <TextView
+            android:id="@+id/tv_col4"
+            android:layout_width="@dimen/weekly_title_name_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="姓名"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <TextView
+            android:id="@+id/tv_monday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期一"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:id="@+id/tv_tuesday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期二"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:id="@+id/tv_wednesday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期三"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:id="@+id/tv_thursday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期四"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:id="@+id/tv_friday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期五"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <TextView
+            android:id="@+id/tv_saturday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期六"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:id="@+id/tv_sunday"
+            android:layout_width="@dimen/weekly_title_day_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="星期日"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_week"
+            android:layout_width="@dimen/weekly_title_total_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_total"
+            android:layout_width="@dimen/weekly_title_total_width"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_alignParentRight="true"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/weekwork_line" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/weekwork_line" />
+
+
+</RelativeLayout>

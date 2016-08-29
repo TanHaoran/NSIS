@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@drawable/round"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_activity_title_height"
+        android:background="@drawable/round_print_title"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/print_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_exchangebed_title"
+            android:text="@string/print_title_e"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/close" />
+
+    </RelativeLayout>
+    
+    <Button
+        android:text="@string/all"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_blue_btn"
+        android:layout_width="@dimen/pritn_btn_width"
+        android:layout_height="@dimen/pritn_btn_height" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dashed_print"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:id="@+id/ll_print"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+        <RelativeLayout
+            android:layout_width="185dp"
+            android:layout_height="90dp">
+
+            <RelativeLayout
+                android:layout_margin="2dp"
+                android:background="@color/exchangebed_bgcolor"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_print"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="犯罪心理（4）"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_check"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.jerry.nsis.view.TrianglePrint
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="3dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <ImageView
+                    android:layout_margin="4dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/check"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp" />
+
+                <View
+                    android:id="@+id/v_select"
+                    android:background="@drawable/rectangle_print"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/dashed_print"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"/>
+
+    <GridView
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/gv_print"
+        android:numColumns="7"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|right"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:id="@+id/btn_print"
+            android:text="@string/print"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_blue_btn"
+            android:layout_width="@dimen/pritn_btn_width"
+            android:layout_height="@dimen/pritn_btn_height" />
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:text="@string/exit"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_blue_btn"
+            android:layout_width="@dimen/pritn_btn_width"
+            android:layout_height="@dimen/pritn_btn_height" />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

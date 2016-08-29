@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources >
+	<style name="open" parent="@android:style/Theme.Dialog">
+        <item name="android:windowTitleStyle">@style/TitleStyle</item>
+        <item name="android:background">@drawable/bg1</item>
+        <item name="android:windowTitleSize">3dip</item>
+    </style>
+    <style name="TitleStyle">
+    	<item name="android:background">@drawable/bg1</item>
+    	<item name="android:height">5dp</item>
+    	<item name="android:windowTitleSize">3dip</item>
+    </style>
+</resources>

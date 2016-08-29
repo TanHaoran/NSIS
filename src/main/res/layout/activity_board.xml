@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:orientation="vertical">
+
+
+    <com.project.sketchpad.view.BoardView
+        android:id="@+id/boardview"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/board_bottom">
+
+
+        <LinearLayout
+            android:id="@+id/tools_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/btn_eraser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/icon_eraser" />
+
+            <ImageView
+                android:id="@+id/btn_pencil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/icon_pencil" />
+
+
+            <ImageView
+                android:id="@+id/btn_pen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/icon_thickpen"
+                android:visibility="invisible" />
+
+
+            <ImageView
+                android:id="@+id/btn_rect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_big_marginLeft"
+                android:background="@drawable/rectangular"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/board_round"
+                android:visibility="visible" />
+
+
+            <ImageView
+                android:id="@+id/btn_line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/line"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_big_marginLeft"
+                android:background="@drawable/color" />
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="@dimen/board_btn_big_marginLeft" />
+
+
+            <ImageView
+                android:id="@+id/btn_undo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_big_marginLeft"
+                android:background="@drawable/undo"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/btn_redo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/reundo"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/btn_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_big_marginLeft"
+                android:background="@drawable/board_new"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/save" />
+
+            <ImageView
+                android:id="@+id/btn_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/board_btn_marginLeft"
+                android:background="@drawable/history" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/board_close" />
+
+        <Button
+            android:id="@+id/btn_paintpot"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:background="@drawable/yqtx"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_oval"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:background="@drawable/tyx"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/btn_plygon"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:background="@drawable/dbxx"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_about"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:background="@drawable/gyx"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

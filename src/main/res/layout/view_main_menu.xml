@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jerry="http://schemas.android.com/apk/res-auto"
+    android:layout_width="520dp"
+    android:layout_height="400dp"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:visibility="invisible"
+        android:id="@+id/rl_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/v_out"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_main_out"/>
+
+        <View
+            android:id="@+id/v_in"
+            android:layout_width="205dp"
+            android:layout_height="205dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/circle_main_in"/>
+
+        <View
+            android:id="@+id/v_center"
+            android:layout_width="@dimen/mainmenubtn_width"
+            android:layout_height="@dimen/mainmenubtn_width"
+            android:layout_centerInParent="true"
+            android:background="#00000000" />
+
+
+        <com.jerry.nsis.view.MainMenuItem
+            android:id="@+id/menu_board"
+            android:layout_width="@dimen/right_menu_item_width"
+            android:layout_height="@dimen/right_menu_item_height"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="70dp"
+            android:layout_toRightOf="@+id/v_center"
+            jerry:backgroundColor="#ff787e"
+            jerry:imageResource="@drawable/menu_board"
+            jerry:index="0"
+            jerry:rotate="0" />
+
+        <com.jerry.nsis.view.MainMenuItem
+            android:id="@+id/menu_work"
+            android:layout_width="@dimen/right_menu_item_width"
+            android:layout_height="@dimen/right_menu_item_height"
+            android:layout_above="@id/menu_board"
+            android:layout_marginLeft="@dimen/right_menu_item2_marginleft"
+            android:layout_toRightOf="@+id/v_center"
+            android:rotation="-26"
+            jerry:backgroundColor="#fdd402"
+            jerry:imageResource="@drawable/menu_work"
+            jerry:index="1"
+            jerry:rotate="26" />
+
+        <com.jerry.nsis.view.MainMenuItem
+            android:id="@+id/menu_bed"
+            android:layout_width="@dimen/right_menu_item_width"
+            android:layout_height="@dimen/right_menu_item_height"
+            android:layout_below="@id/menu_board"
+            android:layout_marginLeft="@dimen/right_menu_item2_marginleft"
+            android:layout_toRightOf="@+id/v_center"
+            android:rotation="26"
+            jerry:backgroundColor="#7bdaf6"
+            jerry:imageResource="@drawable/menu_bed"
+            jerry:index="2"
+            jerry:rotate="-26" />
+
+        <com.jerry.nsis.view.MainMenuItem
+            android:id="@+id/menu_edu"
+            android:layout_width="@dimen/right_menu_item_width"
+            android:layout_height="@dimen/right_menu_item_height"
+            android:layout_marginLeft="@dimen/right_menu_item3_marginleft"
+            android:layout_marginTop="@dimen/right_menu_item3_margintop"
+            android:layout_toRightOf="@+id/v_center"
+            android:rotation="-50"
+            jerry:backgroundColor="#e7a268"
+            jerry:imageResource="@drawable/menu_edu"
+            jerry:index="3"
+            jerry:rotate="50" />
+
+        <com.jerry.nsis.view.MainMenuItem
+            android:id="@+id/menu_exchange"
+            android:layout_width="@dimen/right_menu_item_width"
+            android:layout_height="@dimen/right_menu_item_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/right_menu_item3_margintop"
+            android:layout_marginLeft="@dimen/right_menu_item3_marginleft"
+            android:layout_toRightOf="@+id/v_center"
+            android:rotation="50"
+            jerry:backgroundColor="#1abb9b"
+            jerry:imageResource="@drawable/menu_exchange"
+            jerry:index="4"
+            jerry:rotate="-50" />
+
+
+        <com.jerry.nsis.view.MainMenuNote
+            android:id="@+id/menu_note"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/btn_center"
+        android:background="@drawable/circle_buzzly"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/mainmenubtn_width"
+        android:layout_height="@dimen/mainmenubtn_width">
+
+        <ImageView
+            android:layout_centerInParent="true"
+            android:src="@drawable/buzzly_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@drawable/round"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_prompt_title_height"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <com.jerry.nsis.view.TriangleArrow
+            android:id="@+id/arrow"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/arrow"
+            android:text="一级护理"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/hs_del" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#adadad" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <GridView
+            android:id="@+id/gv_all"
+            android:layout_width="500dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:numColumns="3"
+            android:verticalSpacing="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="从左侧点击想要添加的床位"
+                android:textColor="#333333"
+                android:textSize="16sp" />
+
+
+            <GridView
+                android:id="@+id/gv_now"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:numColumns="5"
+                android:verticalSpacing="20dp" />
+
+
+            <Button
+                android:visibility="gone"
+                android:id="@+id/tv_save"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="30dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/round_custom_delete"
+                android:gravity="center"
+                android:text="保存"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

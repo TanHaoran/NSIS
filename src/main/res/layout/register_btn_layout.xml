@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="100dp"
+    android:layout_marginRight="150dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_previous"
+        android:layout_width="@dimen/welcome_btn_width"
+        android:layout_height="@dimen/welcome_btn_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_welcome_btn"
+        android:gravity="center"
+        android:text="上一步"
+        android:visibility="invisible"
+        android:textColor="@color/setting_btn"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="@dimen/welcome_btn_width"
+        android:layout_height="@dimen/welcome_btn_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="80dp"
+        android:background="@drawable/round_welcome_btn"
+        android:gravity="center"
+        android:text="继续"
+        android:textColor="@color/setting_btn"
+        android:textSize="16sp" />
+</LinearLayout>

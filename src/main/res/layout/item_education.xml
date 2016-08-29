@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="280dp"
+    android:background="#f3f3f3"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/nurseeducationitem" />
+
+        <ImageView
+            android:id="@+id/iv_recommend"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="无菌技术"
+        android:textColor="#656565"
+        android:textSize="12sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/edu_item_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/ll_positive"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical">
+
+            <ImageView
+                android:layout_width="@dimen/edu_img_width"
+                android:layout_height="@dimen/edu_img_height"
+                android:layout_marginRight="@dimen/edu_praise_marginRight"
+                android:src="@drawable/icon_praise" />
+
+            <TextView
+                android:id="@+id/tv_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/edu_item_date_text"
+                android:textSize="@dimen/edu_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_negative"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/edu_img_width"
+                android:layout_height="@dimen/edu_img_height"
+                android:layout_marginRight="@dimen/edu_praise_marginRight"
+                android:src="@drawable/icon_poor" />
+
+            <TextView
+                android:id="@+id/tv_negative"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/edu_item_date_text"
+                android:textSize="@dimen/edu_textSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="left|center_vertical">
+
+
+            <ImageView
+                android:layout_width="@dimen/edu_img_width"
+                android:layout_height="@dimen/edu_img_height"
+                android:layout_marginRight="@dimen/edu_praise_marginRight"
+                android:src="@drawable/icon_look" />
+
+            <TextView
+                android:id="@+id/tv_read"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textColor="@color/edu_item_date_text"
+                android:textSize="@dimen/edu_textSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+
+            <ImageView
+                android:layout_width="@dimen/edu_img_width"
+                android:layout_height="@dimen/edu_img_height"
+                android:layout_marginRight="@dimen/edu_praise_marginRight"
+                android:src="@drawable/icon_time" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2016-02-26"
+                android:textColor="@color/edu_item_date_text"
+                android:textSize="@dimen/edu_textSize" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/right_menu_width"
+    android:layout_height="180dp"
+    android:layout_above="@id/v_contact"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="@dimen/main_padding"
+    android:layout_marginBottom="@dimen/main_padding"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_exchangebed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_menu_title_height"
+        android:background="@color/exchangebed_bgcolor">
+
+        <ImageView
+            android:id="@+id/iv_exchangebed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/right_menu_img_margin"
+            android:src="@drawable/icon_exchange" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_exchangebed"
+            android:text="@string/exchangebed"
+            android:textColor="@color/white"
+            android:textSize="@dimen/slide_menu_textSize" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/right_menu_content_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exchangebed_line_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_exchangefrom1"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_exchangearrow1"
+                android:text="→"
+                android:gravity="center_vertical"
+                android:textColor="@color/exchangebed_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_exchangeto1"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exchangebed_line_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_exchangefrom2"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_exchangearrow2"
+                android:text="→"
+                android:gravity="center_vertical"
+                android:textColor="@color/exchangebed_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_exchangeto2"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exchangebed_line_height"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_exchangefrom3"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_exchangearrow3"
+                android:text="→"
+                android:gravity="center_vertical"
+                android:textColor="@color/exchangebed_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp" />
+
+            <TextView
+                android:id="@+id/tv_exchangeto3"
+                android:gravity="center"
+                android:layout_width="@dimen/exchangebed_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/exchangebed_textColor"
+                android:textSize="@dimen/slide_menu_textSize" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/bottommain_layoutWidth"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline4"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline5"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline6"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline7"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline8"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+    <com.jerry.nsis.view.TypeLine
+        android:id="@+id/typeline9"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/type_line_height" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/topmain_slide_line" />
+
+
+</LinearLayout>

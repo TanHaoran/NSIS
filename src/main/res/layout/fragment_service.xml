@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/v_title"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/welcome_block_paddingLeft"
+        android:paddingRight="@dimen/welcome_block_paddingLeft"
+        android:paddingTop="@dimen/welcome_block_paddingTop">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/welcome_text_marginLeft"
+            android:text="第一步"
+            android:textColor="@color/exchangebed_textColor"
+            android:textSize="@dimen/welcome_big_textSize" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/welcome_block_left_width"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/welcome_text_marginLeft"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/register_arrow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register_service"
+                        android:textColor="@color/setting_title"
+                        android:textSize="@dimen/welcome_normal_textSize" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/welcome_text_marginLeft"
+                    android:layout_marginTop="@dimen/welcome_text_line_spacing"
+                    android:text="@string/register_hospital"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/welcome_normal_textSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/welcome_text_marginLeft"
+                    android:layout_marginTop="@dimen/welcome_text_line_spacing"
+                    android:text="@string/register_office"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/welcome_normal_textSize" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/welcome_text_marginLeft"
+                    android:layout_marginTop="@dimen/welcome_text_line_spacing"
+                    android:text="@string/register_wechat"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/welcome_normal_textSize" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/welcome_text_marginLeft"
+                    android:layout_marginTop="@dimen/welcome_text_line_spacing"
+                    android:text="@string/register"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/welcome_normal_textSize" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_service"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:hint="请输入服务地址"
+        android:singleLine="true"
+        android:text="192.168.0.100"
+        android:textColor="@color/exchangebed_textColor"
+        android:textColorHint="#dfdfdf"
+        android:textSize="@dimen/welcome_normal_textSize" />
+
+
+</RelativeLayout>

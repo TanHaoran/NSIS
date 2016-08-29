@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#40454e"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:background="#2e3239"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingLeft="40dp">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="无菌技术"
+            android:textColor="#67b0fc"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_title"
+            android:text="2016-3-14 10:34:09"
+            android:textColor="#a7b2bc"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:src="@drawable/hs_del" />
+
+        <View
+            android:layout_marginRight="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#161a1e"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_video"
+        android:layout_width="1000dp"
+        android:layout_height="600dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+
+        <ImageView
+            android:id="@+id/iv_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/video_qp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

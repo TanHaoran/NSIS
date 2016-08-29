@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:id="@+id/ll_line"
+    android:layout_marginTop="15dp"
+    android:orientation="horizontal">
+
+
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="@dimen/patient_state"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_starttime"
+        android:layout_width="@dimen/patient_start"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="@dimen/patient_type"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="@dimen/patient_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_way"
+        android:layout_width="@dimen/patient_way"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_frequency"
+        android:layout_width="@dimen/patient_frequency"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_dose"
+        android:layout_width="@dimen/patient_dose"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_note"
+        android:layout_width="@dimen/patient_note"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+    <TextView
+        android:id="@+id/tv_ensuretime"
+        android:layout_width="@dimen/patient_date"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/exchangebed_textColor"
+        android:textSize="@dimen/patient_list_title_textSize" />
+
+
+</LinearLayout>

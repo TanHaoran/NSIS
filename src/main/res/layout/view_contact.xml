@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/right_menu_width"
+    android:layout_height="215dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="350dp"
+    android:layout_marginRight="@dimen/main_padding"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_menu_title_height"
+        android:background="@color/contact_bgcolor">
+
+        <ImageView
+            android:id="@+id/iv_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/right_menu_img_margin"
+            android:src="@drawable/dh_icon_phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_contact"
+            android:text="@string/contact"
+            android:textColor="@color/white"
+            android:textSize="@dimen/right_menu_textSize" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/right_menu_content_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_contact_food"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/iv_contact_food"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_food_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/food"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contact_property"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_contact_property"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_property_bg"
+                    android:clickable="true"
+                    android:src="@drawable/icon_wy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/property"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contact_repair"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_contact_repair"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_repair_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/repair"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/ll_contact_emergency"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_contact_emergency"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_emergency_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/emergency"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contact_hospital"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_contact_hospital"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_hospital_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hospital"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_contact_others"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/iv_contact_others"
+                    android:layout_width="@dimen/contact_img_width"
+                    android:layout_height="@dimen/contact_img_width"
+                    android:background="@drawable/contact_others_bg"
+                    android:clickable="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/others"
+                    android:textColor="@color/exchangebed_textColor"
+                    android:textSize="@dimen/onduty_date_textSize" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

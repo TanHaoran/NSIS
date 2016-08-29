@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round"
+    android:padding="10dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_office"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textColor="@color/weekwork_top"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_office"
+            android:gravity="bottom|center_horizontal"
+            android:textColor="#fa854a"
+            android:textSize="@dimen/weekly_title_textSize" />
+
+        <TextView
+            android:id="@+id/tv_people"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/tv_number"
+            android:gravity="bottom"
+            android:text="人"
+            android:textColor="@color/weekwork_top"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_date"
+            android:textSize="12sp"
+            android:layout_toRightOf="@id/tv_people"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:textColor="@color/weekwork_top" />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/weekly_border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_pre"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="上周"
+                android:textColor="@color/weekwork_btn_text_normal"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <TextView
+                android:id="@+id/tv_this"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:background="@color/exchangebed_bgcolor"
+                android:gravity="center"
+                android:text="本周"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <TextView
+                android:id="@+id/tv_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="下周"
+                android:textColor="@color/weekwork_btn_text_normal"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/hs_del" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/iv_close"
+        android:layout_below="@id/rl_title"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#86979f"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_group_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="分组"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_col1"
+                android:layout_width="@dimen/weekly_title_duty_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="职称"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_col2"
+                android:layout_width="@dimen/weekly_title_age_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="年龄"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_col3"
+                android:layout_width="@dimen/weekly_title_years_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="工作年限"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:id="@+id/tv_col4"
+                android:layout_width="@dimen/weekly_title_name_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="姓名"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期一"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期二"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期三"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期四"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期五"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期六"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:layout_width="@dimen/weekly_title_day_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="星期日"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="@dimen/weekly_title_total_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="本周"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+            <View
+                android:visibility="gone"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:visibility="gone"
+                android:layout_width="@dimen/weekly_title_total_width"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="累计"
+                android:textColor="@color/white"
+                android:textSize="@dimen/weekly_title_textSize" />
+
+
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" />
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

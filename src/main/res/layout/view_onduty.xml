@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/right_menu_width"
+    android:layout_marginTop="@dimen/main_padding"
+    android:layout_height="match_parent"
+    android:layout_below="@id/logo_layout"
+    android:layout_marginRight="@dimen/main_padding"
+    android:layout_above="@id/v_exchange"
+    android:layout_alignParentRight="true"
+    android:layout_marginBottom="@dimen/main_padding"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_menu_title_height"
+        android:background="@color/onduty_bgcolor">
+
+        <ImageView
+            android:id="@+id/iv_onduty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/right_menu_img_margin"
+            android:src="@drawable/icon_doctor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_onduty"
+            android:text="@string/onduty"
+            android:textColor="@color/white"
+            android:textSize="@dimen/right_menu_textSize" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="2月15日"
+            android:textColor="@color/white"
+            android:textSize="@dimen/onduty_date_textSize" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:padding="@dimen/right_menu_content_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_firstline"
+                android:layout_width="@dimen/onduty_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onduty_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/et_firstline"
+                android:padding="0dp"
+                android:background="@color/transparent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:singleLine="true"
+                android:layout_width="@dimen/onduty_rightpart"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_secondline"
+                android:layout_width="@dimen/onduty_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onduty_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/et_secondline"
+                android:padding="0dp"
+                android:background="@color/transparent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:singleLine="true"
+                android:layout_width="@dimen/onduty_rightpart"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_thirdline"
+                android:layout_width="@dimen/onduty_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onduty_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/et_thirdline"
+                android:padding="0dp"
+                android:background="@color/transparent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:singleLine="true"
+                android:layout_width="@dimen/onduty_rightpart"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/tv_allline"
+                android:layout_width="@dimen/onduty_leftpart"
+                android:layout_height="wrap_content"
+                android:textColor="@color/onduty_bgcolor"
+                android:textSize="@dimen/slide_menu_textSize" />
+
+            <EditText
+                android:visibility="invisible"
+                android:id="@+id/et_allline"
+                android:padding="0dp"
+                android:background="@color/transparent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/slide_menu_textSize"
+                android:singleLine="true"
+                android:layout_width="@dimen/onduty_rightpart"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

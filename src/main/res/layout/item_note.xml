@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="270dp"
+    android:layout_height="320dp"
+    android:background="@drawable/rectangle_note"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/right_menu_title_height"
+        android:background="@color/note_bgcolor">
+
+        <ImageView
+            android:id="@+id/iv_note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/right_menu_img_margin"
+            android:src="@drawable/icon_custom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_note"
+            android:text="@string/note"
+            android:textColor="@color/white"
+            android:textSize="@dimen/slide_menu_textSize" />
+
+        <RelativeLayout
+            android:visibility="invisible"
+            android:id="@+id/rl_close"
+            android:layout_alignParentRight="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:clickable="true"
+                android:src="@drawable/close" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/right_menu_content_margin">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/exchangebed_textColor"
+            android:textSize="@dimen/onduty_date_textSize" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="right|center_vertical"
+            android:textColor="@color/exchangebed_textColor"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

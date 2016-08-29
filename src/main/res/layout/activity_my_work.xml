@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/round"
+    android:layout_margin="1dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context="com.jerry.nsis.activity.MyWorkActivity">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="#00cbca"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <com.jerry.nsis.view.CircleImageView
+                    android:id="@+id/iv_head"
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/pb_women" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_col4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="张竹楠"
+                        android:textColor="#003e3d"
+                        android:textSize="@dimen/my_work_name_textSize" />
+
+                    <TextView
+                        android:id="@+id/tv_level"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="护师"
+                        android:textColor="#b1efee"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_office"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/round_mywork"
+                    android:gravity="center"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#1d2b36"
+                android:orientation="vertical"
+                android:paddingTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/icon_pb" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="@string/order_work"
+                        android:textColor="#afbcc3"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:background="#17233c" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="80dp"
+            android:paddingTop="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/four_square" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/my_work"
+                    android:textColor="#1c2b36"
+                    android:textSize="@dimen/my_work_name_textSize" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_mybed_form"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/my_work_form_line_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/time"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/monday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/tuesday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/friday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/thursday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/friday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/saturday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/my_bed_form_title_bg"
+                        android:gravity="center"
+                        android:text="@string/sunday"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/my_work_form_line_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/last_week"
+                        android:textColor="#a6a6a6"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_pre_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_pre_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/my_bed_form_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/my_work_form_line_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/this_week"
+                        android:textColor="#f87d3d"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_this_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_this_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/my_bed_form_line" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/my_work_form_line_height"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="@string/next_week"
+                        android:textColor="#a6a6a6"
+                        android:textSize="@dimen/my_work_form_title_textSize" />
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/my_bed_form_line" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/tv_next_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:gravity="center"
+                            android:textColor="#a6a6a6"
+                            android:textSize="@dimen/my_work_form_content_textSize" />
+
+                        <ImageView
+                            android:id="@+id/iv_next_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/day_rest"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="60dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/four_square" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/my_bed"
+                        android:textColor="#1c2b36"
+                        android:textSize="@dimen/my_work_name_textSize" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="（共管"
+                        android:textColor="#1c2b36"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="0"
+                        android:textColor="#f87d3d"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="个床）"
+                        android:textColor="#1c2b36"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:background="#faa1d4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/serious"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:background="#ff7a7d" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/danger"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <GridView
+                android:id="@+id/gridview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:numColumns="6"
+                android:verticalSpacing="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:src="@drawable/hs_del" />
+
+</RelativeLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <RelativeLayout
+            android:layout_width="@dimen/weekly_title_group_width"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="@dimen/weekly_title_group_width"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/tools_layout"
+                    android:orientation="horizontal"
+                    android:layout_width="60dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_height="match_parent">
+
+                    <View
+                        android:background="@color/weekwork_line"
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"/>
+
+                    <LinearLayout
+                        android:id="@+id/ll_small_group"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"/>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_group"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/tools_layout"
+                    android:gravity="center"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/weekwork_line" />
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/weekwork_line" />
+
+        <LinearLayout
+            android:id="@+id/ll_weekly_line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

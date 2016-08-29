@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="45dp"
+    android:background="@color/transparent"
+    android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:background="@drawable/round_note"
+            android:layout_width="105dp"
+            android:gravity="center_vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_marginLeft="4dp"
+                android:background="@drawable/circle_manu_note_left"
+                android:layout_width="32dp"
+                android:layout_height="32dp" >
+
+                <ImageView
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/icon_custom"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_marginLeft="5dp"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:text="@string/note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <com.jerry.nsis.view.NoteTriangle
+            android:layout_width="30dp"
+            android:layout_height="match_parent" />
+
+</LinearLayout>

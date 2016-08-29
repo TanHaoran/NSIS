@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:background="@drawable/round"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/window_activity_title_height"
+        android:background="@drawable/round_exchangebed_title"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/exchangebed_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <TextView
+            android:id="@+id/tv_exchangebed_title_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/tv_exchangebed_title"
+            android:text="@string/exchangebed_title_e"
+            android:textColor="@color/white"
+            android:textSize="@dimen/exchangebed_title_textSize" />
+
+        <ImageView
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            android:src="@drawable/close" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/ll_exchange"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="@color/exchange_slideline_bg" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+
+            <LinearLayout
+                android:id="@+id/ll_bedLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginRight="140dp"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/white"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true">
+
+
+                    <ImageView
+                        android:id="@+id/iv_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_margin="10dp"
+                        android:src="@drawable/borrow_arrow_big" />
+
+                    <TextView
+                        android:id="@+id/tv_from"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_toLeftOf="@id/iv_arrow"
+                        android:background="@drawable/round_exchangebed_edit"
+                        android:gravity="center"
+                        android:textColor="@color/exchangebed_bgcolor"
+                        android:textSize="24sp" />
+
+                    <TextView
+                        android:id="@+id/tv_to"
+                        android:layout_width="200dp"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/iv_arrow"
+                        android:background="@drawable/round_exchangebed_normal"
+                        android:gravity="center"
+                        android:textColor="@color/exchangebed_bgcolor"
+                        android:textSize="24sp" />
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginTop="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/exchange_left_green"
+                        android:gravity="center"
+                        android:text="@string/all"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/slide_menu_textSize" />
+
+                    <TextView
+                        android:id="@+id/tv_use"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/exchange_slideline_bg"
+                        android:gravity="center"
+                        android:text="@string/exchangebed_use"
+                        android:textColor="@color/exchangebed_bgcolor"
+                        android:textSize="@dimen/slide_menu_textSize" />
+
+                    <TextView
+                        android:id="@+id/tv_empty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/exchange_right_white"
+                        android:gravity="center"
+                        android:text="@string/exchangebed_empty"
+                        android:textColor="@color/exchangebed_bgcolor"
+                        android:textSize="@dimen/slide_menu_textSize" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="80dp"
+                android:background="@drawable/round_green_btn"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <GridView
+                android:id="@+id/gv_bed"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/btn_save"
+                android:layout_below="@id/ll_bedLayout"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginTop="15dp"
+                android:numColumns="5"
+                android:verticalSpacing="20dp" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

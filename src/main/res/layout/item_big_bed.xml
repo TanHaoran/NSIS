@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/item_bed_width"
+    android:layout_height="@dimen/frequency_line_height"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_bed_layout"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:id="@+id/tv_no"
+            android:layout_width="@dimen/item_bedno_width"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/black"
+            android:textSize="@dimen/slide_menu_textSize" />
+
+        <TextView
+            android:layout_toRightOf="@id/tv_no"
+            android:paddingTop="0dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/tv_number"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_gravity="top"
+            android:background="@drawable/round_exetimes"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="8sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_number"
+            android:id="@+id/tv_doc"
+            android:layout_width="@dimen/item_beddoc_width"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:textColor="@color/exchangebed_textColor"
+            android:textSize="@dimen/item_doc_textSize" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_event"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_below="@id/ll_bed_layout"
+        android:gravity="top|center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="0dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tv_event_operation"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="@dimen/event_text_width"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/round_operation"
+            android:gravity="center"
+            android:text="术"
+            android:textColor="@color/event_operation"
+            android:textSize="@dimen/event_textSize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_event_in_hos"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="@dimen/event_text_width"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/round_in_hos"
+            android:gravity="center"
+            android:text="入"
+            android:textColor="@color/event_in_hos"
+            android:textSize="@dimen/event_textSize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_event_temper"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="@dimen/event_text_width"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/round_temper"
+            android:gravity="center"
+            android:text="温"
+            android:textColor="@color/event_temper"
+            android:textSize="@dimen/event_textSize"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_event_order"
+            android:layout_width="@dimen/event_text_width"
+            android:layout_height="@dimen/event_text_width"
+            android:background="@drawable/round_order"
+            android:gravity="center"
+            android:text="医"
+            android:textColor="@color/event_order"
+            android:textSize="@dimen/event_textSize"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
