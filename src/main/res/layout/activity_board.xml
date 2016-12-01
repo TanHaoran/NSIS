@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
 
-    <com.project.sketchpad.view.BoardView
+    <com.project.sketchpad.com.jerry.roundindicator.view.BoardView
         android:id="@+id/boardview"
         android:background="@color/white"
         android:layout_width="match_parent"

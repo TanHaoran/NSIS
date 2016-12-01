@@ -77,8 +77,8 @@ public class MultiScroll extends ScrollView {
     public boolean onInterceptTouchEvent(final MotionEvent ev) {
         /* 
          * By Yoni Samlan: Modified onInterceptTouchEvent based on standard ScrollView's 
-         * onIntercept. The logic is designed to support a nested vertically scrolling view inside 
-         * this one; once a scroll registers for X-wise scrolling, handle it in this view and don't 
+         * onIntercept. The logic is designed to support a nested vertically scrolling com.jerry.roundindicator.view inside
+         * this one; once a scroll registers for X-wise scrolling, handle it in this com.jerry.roundindicator.view and don't
          * let the children, but once a scroll registers for y-wise scrolling, let the children 
          * handle it exclusively. 
          */  

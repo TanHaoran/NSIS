@@ -124,7 +124,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.jerry.nsis.view.TriangleArrow
+            <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 jerry:bg_color="#00b188" />
@@ -147,7 +147,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.jerry.nsis.view.TriangleArrow
+            <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 jerry:bg_color="#00b188" />
@@ -169,7 +169,7 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <com.jerry.nsis.view.TriangleArrow
+            <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
                 android:layout_width="20dp"
                 android:layout_height="wrap_content"
                 jerry:bg_color="#00b188" />

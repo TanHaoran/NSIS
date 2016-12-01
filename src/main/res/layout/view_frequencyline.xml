@@ -14,61 +14,61 @@
             android:textColor="@color/frequency"
             android:textSize="@dimen/frequency_textSize" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <com.jerry.nsis.view.BigBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.BigBed
             android:visibility="visible"
             android:id="@+id/bed10"
             android:layout_width="wrap_content"

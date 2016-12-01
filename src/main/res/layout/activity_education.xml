@@ -126,7 +126,7 @@
 
         </LinearLayout>
 
-        <com.jerry.nsis.view.Triangle
+        <com.jerry.nsis.com.jerry.roundindicator.view.Triangle
             android:layout_marginTop="70dp"
             android:layout_toRightOf="@id/ll_leftmenu"
             android:layout_width="20dp"

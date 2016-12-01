@@ -98,7 +98,7 @@ public class BadgeView extends TextView {
     }
 
     /**
-     * @return Returns true if view is hidden on badge value 0 or null;
+     * @return Returns true if com.jerry.roundindicator.view is hidden on badge value 0 or null;
      */
     public boolean isHideOnNull() {
         return mHideOnNull;
@@ -199,9 +199,9 @@ public class BadgeView extends TextView {
     }
 
     /*
-     * Attach the BadgeView to the target view
+     * Attach the BadgeView to the target com.jerry.roundindicator.view
      * 
-     * @param target the view to attach the BadgeView
+     * @param target the com.jerry.roundindicator.view to attach the BadgeView
      */
     public void setTargetView(View target) {
         if (getParent() != null) {

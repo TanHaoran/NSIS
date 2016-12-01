@@ -15,7 +15,7 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp">
 
-        <com.jerry.nsis.view.TriangleArrow
+        <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
             android:id="@+id/arrow"
             android:layout_width="30dp"
             android:layout_height="50dp"

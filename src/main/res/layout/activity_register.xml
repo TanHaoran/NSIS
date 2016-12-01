@@ -10,7 +10,7 @@
         android:layout_height="60dp"
         android:background="@color/setting_title" />
 
-    <com.jerry.nsis.view.NoScrollViewPager
+    <com.jerry.nsis.com.jerry.roundindicator.view.NoScrollViewPager
         android:layout_marginTop="@dimen/welcome_block_paddingTop"
         android:id="@+id/viewpager"
         android:layout_width="match_parent"

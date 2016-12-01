@@ -18,7 +18,7 @@
             android:layout_width="25dp"
             android:layout_height="match_parent">
 
-            <com.jerry.nsis.view.TriangleArrow
+            <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
                 android:id="@+id/tarrow"
                 android:layout_width="25dp"
                 android:layout_height="match_parent" />
@@ -44,31 +44,31 @@
             android:textSize="@dimen/slide_menu_textSize" />
 
 
-        <com.jerry.nsis.view.SmallBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.SmallBed
             android:id="@+id/bed1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="visible" />
 
-        <com.jerry.nsis.view.SmallBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.SmallBed
             android:id="@+id/bed2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="visible" />
 
-        <com.jerry.nsis.view.SmallBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.SmallBed
             android:id="@+id/bed3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="visible" />
 
-        <com.jerry.nsis.view.SmallBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.SmallBed
             android:id="@+id/bed4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:visibility="visible" />
 
-        <com.jerry.nsis.view.SmallBed
+        <com.jerry.nsis.com.jerry.roundindicator.view.SmallBed
             android:id="@+id/bed5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

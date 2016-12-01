@@ -35,7 +35,7 @@
             android:background="#00000000" />
 
 
-        <com.jerry.nsis.view.MainMenuItem
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuItem
             android:id="@+id/menu_board"
             android:layout_width="@dimen/right_menu_item_width"
             android:layout_height="@dimen/right_menu_item_height"
@@ -47,7 +47,7 @@
             jerry:index="0"
             jerry:rotate="0" />
 
-        <com.jerry.nsis.view.MainMenuItem
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuItem
             android:id="@+id/menu_work"
             android:layout_width="@dimen/right_menu_item_width"
             android:layout_height="@dimen/right_menu_item_height"
@@ -60,7 +60,7 @@
             jerry:index="1"
             jerry:rotate="26" />
 
-        <com.jerry.nsis.view.MainMenuItem
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuItem
             android:id="@+id/menu_bed"
             android:layout_width="@dimen/right_menu_item_width"
             android:layout_height="@dimen/right_menu_item_height"
@@ -73,7 +73,7 @@
             jerry:index="2"
             jerry:rotate="-26" />
 
-        <com.jerry.nsis.view.MainMenuItem
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuItem
             android:id="@+id/menu_edu"
             android:layout_width="@dimen/right_menu_item_width"
             android:layout_height="@dimen/right_menu_item_height"
@@ -86,7 +86,7 @@
             jerry:index="3"
             jerry:rotate="50" />
 
-        <com.jerry.nsis.view.MainMenuItem
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuItem
             android:id="@+id/menu_exchange"
             android:layout_width="@dimen/right_menu_item_width"
             android:layout_height="@dimen/right_menu_item_height"
@@ -101,7 +101,7 @@
             jerry:rotate="-50" />
 
 
-        <com.jerry.nsis.view.MainMenuNote
+        <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuNote
             android:id="@+id/menu_note"
             android:layout_marginLeft="30dp"
             android:layout_width="wrap_content"

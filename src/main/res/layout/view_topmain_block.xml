@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -14,7 +14,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline2"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -24,7 +24,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline3"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -34,7 +34,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline4"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -44,7 +44,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline5"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -54,7 +54,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline6"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />
@@ -64,7 +64,7 @@
         android:layout_height="1dp"
         android:background="@color/topmain_slide_line" />
 
-    <com.jerry.nsis.view.FrequencyLine
+    <com.jerry.nsis.com.jerry.roundindicator.view.FrequencyLine
         android:id="@+id/frequencyline7"
         android:layout_width="match_parent"
         android:layout_height="@dimen/frequency_line_height" />

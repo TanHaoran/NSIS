@@ -36,7 +36,7 @@
 
         </LinearLayout>
 
-        <com.jerry.nsis.view.NoteTriangle
+        <com.jerry.nsis.com.jerry.roundindicator.view.NoteTriangle
             android:layout_width="30dp"
             android:layout_height="match_parent" />
 

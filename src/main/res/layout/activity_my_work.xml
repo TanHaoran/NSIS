@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        tools:context="com.jerry.nsis.activity.MyWorkActivity">
+        tools:context="com.jerry.nsis.com.jerry.roundindicator.activity.MyWorkActivity">
 
         <LinearLayout
             android:layout_width="200dp"
@@ -23,7 +23,7 @@
                 android:gravity="center_horizontal"
                 android:orientation="vertical">
 
-                <com.jerry.nsis.view.CircleImageView
+                <com.jerry.nsis.com.jerry.roundindicator.view.CircleImageView
                     android:id="@+id/iv_head"
                     android:layout_width="90dp"
                     android:layout_height="90dp"
