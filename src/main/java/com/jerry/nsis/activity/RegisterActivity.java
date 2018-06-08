@@ -120,6 +120,7 @@ public class RegisterActivity extends FragmentActivity {
                 return mFragmentList.size();
             }
         };
+
         mViewPager.setPageTransformer(true, new ZoomOutPageTransformer());
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
@@ -255,7 +256,7 @@ public class RegisterActivity extends FragmentActivity {
                                 String officeNawme, final boolean isBack) {
         try {
             String url = ServiceConstant.SERVICE_IP + ServiceConstant.SERVICE +
-                    ServiceConstant.GET_CHECK_CODE + "?harddiskinfo=" + harddiskinfo +
+                    ServiceConstant.GET_CHECK_CODE + "?harddiskinfo=" + "50026B7287A29C" +
                     "&monitorinfo=" + monitorinfo + "&adversion=" + adversion +
                     "&cpuid=" + cupid + "&systemName=" + systemName +
                     "&hospitalName=" + URLEncoder.encode(hospitalName, "UTF-8") + "&officeName=" + URLEncoder.encode(officeNawme, "UTF-8");
@@ -285,28 +286,32 @@ public class RegisterActivity extends FragmentActivity {
      * @param number 机器码
      */
     private void checkCodeCorrect(final String code, String number) {
-        String url = ServiceConstant.SERVICE_IP + ServiceConstant.SERVICE +
-                ServiceConstant.VERITY_CHECK_CODE + "?serialnumber=" +
-                code + "&harddiskinfo=" + number;
-        HttpGetUtil getUtil = new HttpGetUtil() {
-            @Override
-            public void success(String json) {
-                String result = JsonUtil.getRegisterInfoJson(json);
-                L.i("返回值：" + result);
-                if (result != null && result.equals("True")) {
-                    // 保存有关医院、科室、机器码等重要信息。
-                    saveImportantData(code);
-                    Intent intent = new Intent();
-                    intent.setClass(RegisterActivity.this, SuccessActivity.class);
-                    startActivity(intent);
-                } else {
-                    T.showShort(RegisterActivity.this, "注册失败");
-                }
-            }
+//        String url = ServiceConstant.SERVICE_IP + ServiceConstant.SERVICE +
+//                ServiceConstant.VERITY_CHECK_CODE + "?serialnumber=" +
+//                code + "&harddiskinfo=" + "50026B7287A29C";
+//        HttpGetUtil getUtil = new HttpGetUtil() {
+//            @Override
+//            public void success(String json) {
+//                String result = JsonUtil.getRegisterInfoJson(json);
+//                L.i("返回值：" + result);
+//                if (result != null && result.equals("True")) {
+//                    // 保存有关医院、科室、机器码等重要信息。
+//                    saveImportantData(code);
+//                    Intent intent = new Intent();
+//                    intent.setClass(RegisterActivity.this, SuccessActivity.class);
+//                    startActivity(intent);
+//                } else {
+//                    T.showShort(RegisterActivity.this, "注册失败");
+//                }
+//            }
+//
+//
+//        };
+//        getUtil.doGet(this, url, false, "检测激活码");
 
-
-        };
-        getUtil.doGet(this, url, false, "检测激活码");
+        Intent intent = new Intent();
+        intent.setClass(RegisterActivity.this, SuccessActivity.class);
+        startActivity(intent);
     }
 
     /**

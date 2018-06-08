@@ -33,7 +33,7 @@
 
 
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_all"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,70 +41,70 @@
                 jerry:text="全"/>
 
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_serious"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
                 jerry:text="重" />
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_danger"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="危"/>
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_special"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="特"/>
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_first"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="I" />
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_second"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="II"/>
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_third"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="III" />
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_empty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="空" />
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_now"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="现"/>
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_in"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/bed_scan_bottom_btn_marginLeft"
                 jerry:text="入" />
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.ScanButton
+            <com.jerry.nsis.view.ScanButton
                 android:id="@+id/btn_wait"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

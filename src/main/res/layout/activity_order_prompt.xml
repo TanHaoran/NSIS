@@ -21,7 +21,7 @@
             android:layout_height="50dp"
             android:layout_centerVertical="true">
 
-            <com.jerry.nsis.com.jerry.roundindicator.view.TriangleArrow
+            <com.jerry.nsis.view.TriangleArrow
                 android:id="@+id/arrow"
                 android:layout_width="30dp"
                 android:layout_height="50dp" />

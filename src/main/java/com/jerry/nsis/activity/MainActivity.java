@@ -43,7 +43,6 @@ import com.jerry.nsis.utils.BedComparator;
 import com.jerry.nsis.utils.DateUtil;
 import com.jerry.nsis.utils.DensityUtils;
 import com.jerry.nsis.utils.HttpGetUtil;
-import com.jerry.nsis.utils.InternetUtil;
 import com.jerry.nsis.utils.JsonUtil;
 import com.jerry.nsis.utils.L;
 import com.jerry.nsis.utils.NsisUtil;
@@ -62,7 +61,6 @@ import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -324,7 +322,7 @@ public class MainActivity extends Activity {
         String officeId = sp.getString("office_id", "0000000130");
         LoginInfo.HOSPITAL_NAME = hospitalName;
         LoginInfo.OFFICE_NAME = officeName;
-        LoginInfo.OFFICE_ID = officeId;
+        LoginInfo.OFFICE_ID = "0000000243";
         ServiceConstant.SERVICE_IP = ip;
         L.i("读取到的医院：" + LoginInfo.HOSPITAL_NAME);
         L.i("读取到的科室名称：" + LoginInfo.OFFICE_NAME);

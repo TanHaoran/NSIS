@@ -100,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.jerry.nsis.com.jerry.roundindicator.view.TrianglePrint
+                <com.jerry.nsis.view.TrianglePrint
                     android:layout_alignParentRight="true"
                     android:layout_margin="3dp"
                     android:layout_width="30dp"

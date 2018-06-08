@@ -8,7 +8,7 @@
     android:gravity="center_horizontal"
     android:orientation="vertical">
 
-    <com.jerry.nsis.com.jerry.roundindicator.view.CircleImageView
+    <com.jerry.nsis.view.CircleImageView
         android:id="@+id/iv_head"
         android:src="@drawable/pb_women"
         android:layout_width="80dp"

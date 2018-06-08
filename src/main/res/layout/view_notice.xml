@@ -12,7 +12,7 @@
         android:layout_height="60dp"
         android:background="#dd2a3044">
 
-        <com.jerry.nsis.com.jerry.roundindicator.view.AlwaysMarqueeTextView
+        <com.jerry.nsis.view.AlwaysMarqueeTextView
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -102,7 +102,7 @@
 
     </RelativeLayout>
 
-    <com.jerry.nsis.com.jerry.roundindicator.view.AlwaysMarqueeTextView
+    <com.jerry.nsis.view.AlwaysMarqueeTextView
         android:id="@+id/tv_content"
         android:layout_width="match_parent"
         android:layout_height="60dp"

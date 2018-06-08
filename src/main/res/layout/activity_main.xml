@@ -37,14 +37,14 @@
          
     </RelativeLayout>  
     
-    <com.jerry.nsis.com.jerry.roundindicator.view.NoticeView
+    <com.jerry.nsis.view.NoticeView
     	android:id="@+id/noticeview"
     	android:visibility="invisible"
     	android:layout_alignParentBottom="true"
     	android:layout_width="match_parent"
     	android:layout_height="120dp"/>  
     
-     <com.jerry.nsis.com.jerry.roundindicator.view.MainMenuView
+     <com.jerry.nsis.view.MainMenuView
         android:id="@+id/main_menu"
         android:layout_width="520dp"
         android:layout_height="400dp"
